@@ -1,4 +1,4 @@
-var names = ["Saab", "Volvo", "BMW"]; 
+var names = ["Saab", "<h4>Katie Holmes</h4><i>17/02/1992</i><p>Work Summary</p>", "BMW"]; 
 
 document.getElementById("demo").innerHTML = cars[0]; 
 
@@ -9,7 +9,7 @@ function myFunction1() {
     for (i = 0; i < x.length ;i++) {
         text += x.elements[i].value + "<br>";
     }
-    document.getElementById("demo").innerHTML = names[0] 
+    document.getElementById("demo").innerHTML = names[0];
     
 }
 function myFunction2() {
@@ -19,7 +19,7 @@ function myFunction2() {
     for (i = 0; i < x.length ;i++) {
         text += x.elements[i].value + "<br>";
     }
-    document.getElementById("demo").innerHTML = "<h4>Katie Holmes</h4><i>17/02/1992</i><p>Work Summary</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+    document.getElementById("demo").innerHTML = names[1];
 }
 function myFunction3() {
     var x = document.forms["frm3"];
