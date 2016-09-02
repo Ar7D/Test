@@ -7,8 +7,8 @@ id="0" onclick=function(id)
 demoBox = getelementbyid("demo")
 
 function(id){demobox.html=array(id)}
-/*
-function myFunction1() {
+
+function(id){demobox.html=array(id)} {
     var x = document.forms["frm1"];
     var text = "";
     var i;
@@ -16,7 +16,7 @@ function myFunction1() {
         text += x.elements[i].value + "<br>";
     }
     document.getElementById("demo").innerHTML = names[0];
-    
+ /*   
 }
 function myFunction2() {
     var x = document.forms["frm2"];
