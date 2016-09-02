@@ -1,11 +1,5 @@
-var names = ["Mathew Jones", "Katie Holmes", "Charlotte Wright","James Wilks","Sophie Broom"]; 
-
-//document.getElementById("demo").innerHTML = names [2]
-
-
-
-button = document.getElementsByTagName('names');
-para = document.getElementsByTagName('names');
+button = document.getElementsByTagName('button');
+para = document.getElementsByTagName('div');
 
 function show(x) {
     para[x].style.display = 'block';
