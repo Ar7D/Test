@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    padding: 0px;
+    font-size: 20;
+}
+.menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+   
+}
+.main {
+    width: 75%;
+    height: 100%;
+    float: left;
+    padding: 15px;
+   
+} 
+
+
+body {
+    background-color: #f8f8f8; 
+      
+  }
+  
+ p {
+    font-family: Arial;
+    font-size: 19px;
+} 
+  
+    h1  {
+    margin-top: 30px; 
+    font-size: 48px;
+    font-weight: bold;
+    color: #9325B2;
+    font-family: Arial;
+    }
+    
+    h2  {
+
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Arial;
+    }
+
+h3  {
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Arial;
+    }
+    
+    h4  {
+   
+    font-size: 19px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Arial;
+}
+
+    img {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    
+    }
+    
+     .demo  {
+    font-family:Arial;
+    padding-top:20px;   
+    }
+
+    .button {
+    margin: 10px;
+    font-family:Arial;
+    background-color: #00823B; 
+    font-weight: bold;
+    padding: 12px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    width: 235px;
+    cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(85%);
+}
