@@ -1,7 +1,13 @@
 var names = ["Saab", "<h4>Katie Holmes</h4><i>17/02/1992</i><p>Work Summary</p>", "BMW"]; 
 
-document.getElementById("demo").innerHTML = cars[0]; 
+//document.getElementById("demo").innerHTML = cars[0]; 
 
+id="0" onclick=function(id)
+
+demoBox = getelementbyid("demo")
+
+function(id){demobox.html=array(id)}
+/*
 function myFunction1() {
     var x = document.forms["frm1"];
     var text = "";
