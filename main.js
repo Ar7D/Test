@@ -4,7 +4,7 @@ var names = ["Mathew Jones", "Katie Holmes", "Charlotte Wright","James Wilks","S
 
 
 
-button = document.getElementsByTagName('button');
+button = document.getElementsByTagName('names');
 para = document.getElementsByTagName('names');
 
 function show(x) {
