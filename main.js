@@ -1,3 +1,8 @@
+var names = ["Mathew Jones", "Katie Holmes", "Charlotte Wright","James Wilks","Sophie Broom"]; 
+
+document.getElementById("demo").innerHTML =[2]
+
+/*
 function myFunction1() {
     var x = document.forms["frm1"];
     var text = "";
