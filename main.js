@@ -1,33 +1,7 @@
-button = document.getElementsByTagName('button');
-para = document.getElementsByTagName('div');
+var names = ["Saab", "Volvo", "BMW"]; 
 
-function show(x) {
-    para[x].style.display = 'block';
-    button[x].onclick = function() {
-        hide(x);
-    }
-}
+document.getElementById("demo").innerHTML = cars[0]; 
 
-function hide(x) {
-    para[x].style.display = 'none';
-    button[x].onclick = function() {
-        show(x);
-    }
-}
-
-button[0].onclick = function() {
-    show(0);
-}
-
-button[1].onclick = function() {
-    show(1);
-}
-button[2].onclick = function() {
-    show(2);
-}
-
-
-/*
 function myFunction1() {
     var x = document.forms["frm1"];
     var text = "";
@@ -35,7 +9,8 @@ function myFunction1() {
     for (i = 0; i < x.length ;i++) {
         text += x.elements[i].value + "<br>";
     }
-    document.getElementById("demo").innerHTML = "<h4>Mathew Jones</h4><i>04/05/1984</i><p>Work Summary</p><p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+    document.getElementById("demo").innerHTML = names[0] 
+    
 }
 function myFunction2() {
     var x = document.forms["frm2"];
